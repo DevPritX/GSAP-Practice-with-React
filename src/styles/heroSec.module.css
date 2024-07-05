@@ -1,0 +1,44 @@
+.heroSec {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.content h1 {
+    font-size: 70px;
+    text-transform: lowercase;
+    color: #DE7456;
+}
+
+.content button {
+    all: unset;
+    background-color: #ff247f;
+    color: #C4DFFB;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: .2s ease-out;
+}
+
+.content button:active {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    transform: scaleX(.95);
+}

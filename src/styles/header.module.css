@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    height: 80px;
+    padding: 0 50px;
+    border-bottom: 4px solid #DE7456;
+    background-color: #43597d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #DE7456;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: .6px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    color: #DE7456;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: .4px;
+}

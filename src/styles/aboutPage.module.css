@@ -1,0 +1,172 @@
+.aboutPage {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContent {
+  width: 60%;
+  height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.userContact,
+.userDetails {
+  width: 50%;
+  height: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.75);
+}
+.userContact {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.userPic {
+  width: 200px;
+  height: 200px;
+  mask: url("../mask.svg") no-repeat;
+  -webkit-mask: url("../mask.svg") no-repeat;
+  /* transform: translateX(10%);
+        -webkit-transform: translateX(10%);
+        -moz-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+        -o-transform: translateX(10%); */
+}
+
+.userPic img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  transform: translateY(33%) scale(1.5);
+  -webkit-transform: translateY(33%) scale(1.5);
+  -moz-transform: translateY(33%) scale(1.5);
+  -ms-transform: translateY(33%) scale(1.5);
+  -o-transform: translateY(33%) scale(1.5);
+}
+
+.authorName {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #e94e23;
+}
+
+.authorEmail {
+  text-align: center;
+  font-size: 14px;
+  text-transform: lowercase;
+  color: #e94e23b7;
+}
+
+.cvDownloadBtn {
+  all: unset;
+  margin: 20px auto;
+  width: 150px;
+  height: 40px;
+  background-color: #e94e23;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutMe,
+.roles {
+  width: 100%;
+  height: 50%;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.aboutMeTitle {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .6px;
+    color: #00227e;
+}
+
+.availableStatus {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+    color: #00c900f3;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00c900f3;
+    font-size: 14px;
+    color: #00c900f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.aboutText {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #001652
+}
+
+.rolesTitle {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .6px;
+}
